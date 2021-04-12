@@ -11,6 +11,12 @@ module.exports = {
         'nunito': ['Nunito'],
         'mont': ['Montserrat'],
       },
+      colors: {
+        'my-blue': '#ced7e1',
+        'my-bg': '#ebe6d6',
+        'my-card': '#ede0df',
+        'my-white': '#6ea695',
+      },
     },
   },
   variants: {

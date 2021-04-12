@@ -5,7 +5,7 @@ import SearchBar from './components/SearchBar';
 
 function App() {
   return (
-    <div className='flex flex-col items-center min-w-screen min-h-screen bg-yellow-300'>
+    <div className='flex flex-col items-center min-w-screen min-h-screen bg-my-bg'>
       <SearchBar />
       <div className="">
         <div className='grid grid-flow-row grid-cols-3 grid-rows-3 gap-2'>
