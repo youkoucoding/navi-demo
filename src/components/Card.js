@@ -1,7 +1,7 @@
 import React from 'react';
 import { sites } from '../data/data';
 
-const Card = ({ title }) => {
+const Card = ({ title, element }) => {
     return (
 
         <div className="bg-gradient-to-b from-green-200 to-green-100 border-b-4 border-green-600 rounded-lg shadow-xl p-5 mt-1">
@@ -13,16 +13,13 @@ const Card = ({ title }) => {
             </div>
 
             <div className='grid grid-flow-col shadow grid-cols-3 grid-rows-3 gap-7 rounded-md mt-6'>
-                {sites.map((item, index) => (
+                {element.map((e, index) => (
 
                     <div key={index} className='font-semibold font-mont py-4 px-6 mx-4 my-3 flex-wrap bg-my-blue text-my-white rounded-lg'>
-                        {item.element.map((e, index) => (
-                            <a
-                                href={e.url}
-                                Key={index}
-                                target='_blank'
-                            >{e.name}</a>
-                        ))}
+                        <a
+                            href={e.url}
+                            target='_blank'
+                        >{e.name}</a>
                     </div>
                 ))}
             </div>
