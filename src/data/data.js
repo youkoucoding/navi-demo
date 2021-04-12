@@ -1,9 +1,9 @@
 export const sites = [
     {
-        "title": "study",
-        "items": [
+        "title": "学習",
+        "element": [
             {
-                "id": 0,
+                "id": 1,
                 "name": "知乎",
                 "url": "https://www.zhihu.com",
             },
@@ -51,10 +51,10 @@ export const sites = [
     },
 
     {
-        "title": "life",
-        "items": [
+        "title": "ニュース",
+        "element": [
             {
-                "id": 0,
+                "id": 1,
                 "name": "知乎",
                 "url": "https://www.zhihu.com",
             },
@@ -102,10 +102,10 @@ export const sites = [
     },
 
     {
-        "title": "world",
-        "items": [
+        "title": "世界",
+        "element": [
             {
-                "id": 0,
+                "id": 1,
                 "name": "知乎",
                 "url": "https://www.zhihu.com",
             },
@@ -153,10 +153,10 @@ export const sites = [
     },
 
     {
-        "title": "entertaiment",
-        "items": [
+        "title": "経済",
+        "element": [
             {
-                "id": 0,
+                "id": 1,
                 "name": "知乎",
                 "url": "https://www.zhihu.com",
             },
@@ -204,10 +204,10 @@ export const sites = [
     },
 
     {
-        "title": "work",
-        "items": [
+        "title": "IT業界",
+        "element": [
             {
-                "id": 0,
+                "id": 1,
                 "name": "知乎",
                 "url": "https://www.zhihu.com",
             },
@@ -255,10 +255,10 @@ export const sites = [
     },
 
     {
-        "title": "resource",
-        "items": [
+        "title": "娯楽＆スポーツ",
+        "element": [
             {
-                "id": 0,
+                "id": 1,
                 "name": "知乎",
                 "url": "https://www.zhihu.com",
             },
