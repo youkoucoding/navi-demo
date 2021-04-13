@@ -5,7 +5,7 @@ import SearchBar from './components/SearchBar';
 
 function App() {
   return (
-    <div className='flex flex-col items-center min-w-screen min-h-screen bg-my-bg'>
+    <div className='flex flex-col items-center min-w-screen min-h-screen bg-hero bg-no-repeat bg-center'>
       <SearchBar />
       <CardList />
     </div>

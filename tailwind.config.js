@@ -11,12 +11,9 @@ module.exports = {
         'nunito': ['Nunito'],
         'mont': ['Montserrat'],
       },
-      colors: {
-        'my-blue': '#ced7e1',
-        'my-bg': '#ebe6d6',
-        'my-card': '#ede0df',
-        'my-white': '#6ea695',
-      },
+      backgroundImage: theme => ({
+        'hero': "url('https://images.unsplash.com/photo-1616020193910-5efb86d166e9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80')",
+      }),
     },
   },
   variants: {
