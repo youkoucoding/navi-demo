@@ -29,7 +29,7 @@ const App = () => {
                     Search
             </button>
             </form>
-            <CardList result={Search(value)} />
+            <CardList result={Search(value)} value={value} />
         </div>
     );
 };

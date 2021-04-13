@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Card = ({ title, element, color }) => {
+const Card = ({ title, element, color, value }) => {
     return (
         <div className={`card bg-gradient-to-b from-${color}-300 to-${color}-100 border-${color}-600`}>
             <div className="flex flex-row ">
@@ -9,7 +9,11 @@ const Card = ({ title, element, color }) => {
 
             <div className='grid grid-flow-row grid-cols-3 grid-rows-3 gap-y-6 mt-2'>
                 {element.map((e, index) => (
-                    <a key={index} className='card-item' target='_blank' href={e.url}>
+                    <a
+                        key={index}
+                        className={`card-item ${e.name == value ? 'text-gray-700 bg-yellow-500' : 'text-white'}`}
+                        target='_blank' href={e.url}
+                    >
                         {e.name}
                     </a>
                 ))

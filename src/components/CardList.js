@@ -2,7 +2,7 @@ import React from 'react';
 import Card from './Card';
 import { sites } from '../data/data';
 
-export const CardList = ({ result }) => {
+export const CardList = ({ result, value }) => {
     return (
         <>
             {
@@ -23,6 +23,7 @@ export const CardList = ({ result }) => {
                                 key={index}
                                 element={res.item.element}
                                 color={res.item.color}
+                                value={value}
                             />
                         ))}
                     </div>
