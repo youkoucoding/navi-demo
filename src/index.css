@@ -11,4 +11,10 @@
     .input-blue {
         @apply focus:ring-blue-500 focus:border-blue-500 block w-full pl-7 pr-36 text-3xl rounded-md font-nunito border border-gray-300;
     }
+    .card-item {
+        @apply flex flex-wrap items-center justify-center mx-5 shadow-lg rounded-lg bg-blue-400 hover:bg-yellow-500;
+    }
+    .card {
+        @apply border-b-4 rounded-lg bg-opacity-20 shadow-xl p-5 mx-4 my-2;
+    }
   }

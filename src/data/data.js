@@ -1,6 +1,7 @@
 export const sites = [
     {
         "title": "学習",
+        "color": "red",
         "element": [
             {
                 "id": 1,
@@ -52,6 +53,7 @@ export const sites = [
 
     {
         "title": "ニュース",
+        "color": "blue",
         "element": [
             {
                 "id": 1,
@@ -103,6 +105,7 @@ export const sites = [
 
     {
         "title": "ビデオ",
+        "color": "green",
         "element": [
             {
                 "id": 1,
@@ -154,6 +157,7 @@ export const sites = [
 
     {
         "title": "経済",
+        "color": "pink",
         "element": [
             {
                 "id": 1,
@@ -205,6 +209,7 @@ export const sites = [
 
     {
         "title": "IT業界",
+        "color": "yellow",
         "element": [
             {
                 "id": 1,
@@ -256,6 +261,7 @@ export const sites = [
 
     {
         "title": "娯楽＆スポーツ",
+        "color": "purple",
         "element": [
             {
                 "id": 1,
