@@ -126,8 +126,8 @@ export const sites = [
             },
             {
                 "id": 5,
-                "name": "知乎",
-                "url": "https://www.zhihu.com",
+                "name": "Abema",
+                "url": "https://abema.tv/",
             },
             {
                 "id": 6,
