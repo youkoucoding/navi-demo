@@ -6,7 +6,7 @@ const SearchBar = () => {
 
     return (
         <>
-            <div className='flex mt-20 mb-10'>
+            <form className='flex mt-20 mb-10'>
                 <input
                     className='input-blue'
                     value={''}
@@ -15,7 +15,7 @@ const SearchBar = () => {
                 <button className='btn-blue'>
                     Search
                 </button>
-            </div>
+            </form>
 
         </>
     );
