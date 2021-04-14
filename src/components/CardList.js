@@ -6,7 +6,7 @@ export const CardList = ({ result, value }) => {
     return (
         <>
             {
-                (result.length == 0) ? <div className='grid grid-flow-row grid-cols-3 sm:grid-rows-2 gap-y-4 gap-x-0'>
+                (result.length === 0) ? <div className='grid grid-flow-row grid-cols-3 sm:grid-rows-2 gap-y-4 gap-x-0'>
                     {sites.map((item, index) => (
                         <Card
                             title={item.title}
